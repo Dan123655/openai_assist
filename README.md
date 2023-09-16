@@ -34,6 +34,19 @@ This applications assists
 
 Once the app is running, navigate to [localhost](http://localhost:8000) in your browser.
 
+## Returns params & greetings
+
+```
+{
+  name: 'get_places',
+  arguments: '{\n' +
+    '  "category": 10696,\n' +
+    '  "attribute": 100,\n' +
+    '  "response": "Here are some barrier-free cafes near you:"\n' +
+    '}'
+}
+```
+
 ## License
 
 MIT License
