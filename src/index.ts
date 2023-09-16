@@ -1,7 +1,8 @@
-import express from 'express';
-import dotenv from 'dotenv';
+
 import { OpenAI } from 'openai';
 import { functions, chat } from './config.js';
+import express from 'express';
+import dotenv from 'dotenv';
 dotenv.config();
 
 const port = 8000;
