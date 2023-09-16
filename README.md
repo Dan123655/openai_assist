@@ -12,7 +12,7 @@ This applications assists
 
 ### Prerequisites
 
-1. Node.js & npm installed.
+1. Bun installed.
 2. An OpenAI account and API key.
 
 ### Installation
@@ -22,7 +22,7 @@ This applications assists
 2. **Navigate to the project directory:**  
    `cd [this repo name]`
 3. **Install the necessary dependencies:**  
-   `npm i`
+   `bun i`
 4. **Set up your OpenAI API key:**  
    Create a `.env` file in the root directory and add the following line:  
    `API_KEY=Your_OpenAI_API_KEY`
@@ -30,7 +30,7 @@ This applications assists
 ## Usage
 
 - **To run the app in development mode:**  
-  `npm run dev`
+  `bun run dev`
 
 Once the app is running, navigate to [localhost](http://localhost:8000) in your browser.
 
