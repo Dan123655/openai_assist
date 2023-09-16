@@ -37,7 +37,8 @@ Once the app is running, navigate to [localhost](http://localhost:8000) in your 
 ## Returns params & greetings
 
 ```
- {
+Function Name: get_places
+Arguments: {
   "categories": [
     10696
   ],
