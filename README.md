@@ -38,12 +38,9 @@ Once the app is running, navigate to [localhost](http://localhost:8000) in your 
 
 ```
 {
-  name: 'get_places',
-  arguments: '{\n' +
-    '  "category": 10696,\n' +
-    '  "attribute": 100,\n' +
-    '  "response": "Here are some barrier-free cafes near you:"\n' +
-    '}'
+  "categories": [10696],
+  "attributes": [100, 102],
+  "response": "Sure! Here are some barrier-free cafes where you can take your dog:"
 }
 ```
 
