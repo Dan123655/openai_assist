@@ -37,10 +37,15 @@ Once the app is running, navigate to [localhost](http://localhost:8000) in your 
 ## Returns params & greetings
 
 ```
-{
-  "categories": [10696],
-  "attributes": [100, 102],
-  "response": "Sure! Here are some barrier-free cafes where you can take your dog:"
+ {
+  "categories": [
+    10696
+  ],
+  "attributes": [
+    100,
+    102
+  ],
+  "response": "Sure, let me find a barrier-free cafe where you can go with your dog."
 }
 ```
 
